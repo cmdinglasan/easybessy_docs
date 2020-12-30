@@ -1,0 +1,29 @@
+{
+  "name": "easybessy_docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmdinglasan/easybessy_docs.git"
+  },
+  "author": "cmdinglasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmdinglasan/easybessy_docs/issues"
+  },
+  "homepage": "https://github.com/cmdinglasan/easybessy_docs#readme",
+  "dependencies": {
+    "vuepress": "^1.7.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "@vuepress/plugin-pwa": "^1.7.1",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35"
+  }
+}
